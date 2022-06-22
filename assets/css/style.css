@@ -1,0 +1,80 @@
+/*----------------------------------------
+# GENERAL
+----------------------------------------*/
+
+body {
+  background: #141d2b;
+  color: #a4b1cd;
+  font-family: "Ubuntu Mono", helvetica;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #9fef00;
+  text-decoration: none !important;
+}
+
+p {
+  font-size: 15px;
+  color: #a4b1cd;
+}
+
+::selection {
+  background: rgba(159, 239, 0, 20%);
+  color: #fff;
+}
+
+/*----------------------------------------
+# HERO
+----------------------------------------*/
+
+#hero .hero-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #9fef00;
+}
+
+.hero-content p {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #a4b1cd;
+}
+
+/*----------------------------------------
+# FOOTER
+----------------------------------------*/
+
+#footer {
+  background: #111927;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.credits {
+  font-size: 12px;
+}
